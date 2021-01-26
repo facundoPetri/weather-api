@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+form {
+  float: right;
+  height: 80%;
+  position: relative;
+  margin: 2.5rem 3.5rem 0 0;
+}
+#search {
+  width: 24rem;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0 0 0.3rem 4.5rem;
+  color: #ffffff;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+}
+.info {
+  text-transform: uppercase;
+  color: whitesmoke;
+  position: absolute;
+  top: 30%;
+  width: 90%;
+  margin-left: 10%;
+  color: #f3f3f3;
+}
+.degrees {
+  font-size: 15rem;
+  font-weight: 900;
+  font-family: "Nunito", sans-serif;
+  position: relative;
+}
+.degrees::after {
+  content: "\00B0 C";
+  font-size: 3rem;
+  position: absolute;
+  top: 1.8rem;
+  left: 17.3rem;
+}
+.error-msg {
+  display: hidden;
+  position: absolute;
+  left: 2rem;
+  color: #ff3333;
+  font-size: 15px;
+  display: none;
+}
+.submit {
+  position: absolute;
+  top: 27%;
+  left: 6%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #f3f3f3;
+  font-size: 1.8rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.submit:before {
+  content: "\f002";
+}
